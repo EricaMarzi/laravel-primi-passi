@@ -9,10 +9,9 @@
 
 <body>
     <header>
-        <a href="{{url('/secondpage')}}">Link</a>
+        <a href="{{route('page')}}">Link</a>
     </header>
-    <h1>Hello World</h1>
-    <h2>{{$hello}}</h2>
+    <h1>{{$hello}}</h1>
 </body>
 
 </html>

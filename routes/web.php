@@ -14,11 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $data = ['hello' => 'Hi there'];
+    $data = ['hello' => 'Hello World'];
     return view('home', $data);
-});
+})->name('home');
 
 Route::get('/secondpage', function () {
 
     return view('/second-page.page');
-});
+})->name('page');
